@@ -1,5 +1,5 @@
 ARG registry
-FROM ${registry}/splatform/os-image-sles
+FROM ${registry}/splatform/os-image-sle12
 
 # Install RVM & Ruby 2.3.1
 RUN zypper -n in --force-resolution libopenssl-devel \
